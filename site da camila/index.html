@@ -3,43 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meus objetivos do ano</title>
+    <title>Meus objetivos de vida</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <section class="conteudo-principal">
-        <h2 class="titulo-principal">Meus Objetivos do ano<span>_</span></h2>
-        <div class="conteudo">
-        <div class="botoes">
-            <button class="botao ativo">Arrumar um emprego</button>
-            <button class="botao">Comprar uma moto</button>
-            <button class="botao">Fazer academia</button>
-            <button class="botao">Fazer uma faculdade</button>
+<section class="conteudo-principal">
+    <h2 class="titulo-principal">Minhas metas<span>_</span></h2>
+    <div class="botoes">
+        <button class="botao ativo">emprego</button>
+        <button class="botao">faculdade</button>
+        <button class="botao">academia</button>
+        <button class="botao">moto</button>
+    </div>
+    <div class="abas-textos">
+        <div class="aba-conteudo ativo"><!--início do primeiro botão-->
+            <h3 class="aba-conteudo-titulo-principal">conseguir um emprego</h3>
+            <h4 class="aba-conteudo-titulo-secundario">Eu quero conseguir o meu emprego ate 2025</h4>
+            <div class="contador">
+                <div class="contador-digito">
+                <p class="contador-digito-numero" id="dias0"></p>
+                <p class="contador-digito-texto">Dias</p>
+                </div>
+                <div class="contador-digito">
+                    <p class="contador-digito-numero" id="horas0"></p>
+                    <p class="contador-digito-texto">Horas</p>
+                </div>
+            <div class="contador-digito">
+                <p class="contador-digito-numero" id="min0"></p>
+                <p class="contador-digito-texto">Min</p>
+            </div>
+            <div class="contador-digito">
+                <p class="contador-digito-numero" id="seg0"></p>
+                <p class="contador-digito-texto">seg</p>
+            </div>
         </div>
-        <div class="abas-textos">
-            <div class="aba-conteudo ativo">
-                <h3 class="aba-conteudo-titulo-principal">Arrumar um emprego</h3>
-                <h4 class="aba-conteudo-titulo-secundario">5 meses 10 dias 30 segundos</h4>
-                <div class="contador"></div>
+    </div><!--término 1 botao-->
+
+    <div class="aba-conteudo"><!--início do segungo botão-->
+        <h3 class="aba-conteudo-titulo-principal">Fazer uma faculdade</h3>
+        <h4 class="aba-conteudo-titulo-secundario">fazer a faculdade de pedagogia</h4>
+        <div class="contador">
+            <div class="contador-digito">
+            <p class="contador-digito-numero" id="dias1"></p>
+            <p class="contador-digito-texto">Dias</p>
             </div>
-            <div class="aba-conteudo">
-                <h3 class="aba-conteudo-titulo-principal">Comprar uma moto</h3>
-                <h4 class="aba-conteudo-titulo-secundo<">1 ano 5 meses 30 dias 60 segundos</h4>/h4>
-                <div class="contador"></div>
+            <div class="contador-digito">
+                <p class="contador-digito-numero" id="horas1"></p>
+                <p class="contador-digito-texto">Horas</p>
             </div>
-            <div class="aba-conteudo">
-                <h3 class="aba-conteudo-titulo-principal">Criar um portfolio com os meus 3 melhores projetos</h3>
-                <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
-                <div class="contador"></div>
-            </div>
-            <div class="aba-conteudo">
-                <h3 class="aba-conteudo-titulo-principal">Atualizar meu curriculo com os certificados da Alura</h3>
-                <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
-                <div class="contador"></div>
-            </div>
+        <div class="contador-digito">
+            <p class="contador-digito-numero" id="min1"></p>
+            <p class="contador-digito-texto">Min</p>
+        </div>
+        <div class="contador-digito">
+            <p class="contador-digito-numero" id="seg1"></p>
+            <p class="contador-digito-texto">seg</p>
         </div>
     </div>
-    </section>
-    <script src="main.js"></script>
+</div><!--término 2 botao-->
+
+<div class="aba-conteudo ativo"><!--início do terceiro botão-->
+    <h3 class="aba-conteudo-titulo-principal">academia</h3>
+    <h4 class="aba-conteudo-titulo-secundario">conseguir te o corpo dos sonhos</h4>
+    <div class="contador">
+        <div class="contador-digito">
+        <p class="contador-digito-numero" id="dias2"></p>
+        <p class="contador-digito-texto">Dias</p>
+        </div>
+        <div class="contador-digito">
+            <p class="contador-digito-numero" id="horas2"></p>
+            <p class="contador-digito-texto">Horas</p>
+        </div>
+    <div class="contador-digito">
+        <p class="contador-digito-numero" id="min2"></p>
+        <p class="contador-digito-texto">Min</p>
+    </div>
+    <div class="contador-digito">
+        <p class="contador-digito-numero" id="seg2"></p>
+        <p class="contador-digito-texto">seg</p>
+    </div>
+</div>
+</div><!--término 3 botao-->
+
+<div class="aba-conteudo ativo"><!--início do quarto botão-->
+    <h3 class="aba-conteudo-titulo-principal">compra uma moto</h3>
+    <h4 class="aba-conteudo-titulo-secundario">para nao anda ape</h4>
+    <div class="contador">
+        <div class="contador-digito">
+        <p class="contador-digito-numero" id="dias3"></p>
+        <p class="contador-digito-texto">Dias</p>
+        </div>
+        <div class="contador-digito">
+            <p class="contador-digito-numero" id="horas3"></p>
+            <p class="contador-digito-texto">Horas</p>
+        </div>
+    <div class="contador-digito">
+        <p class="contador-digito-numero" id="min3"></p>
+        <p class="contador-digito-texto">Min</p>
+    </div>
+    <div class="contador-digito">
+        <p class="contador-digito-numero" id="seg3"></p>
+        <p class="contador-digito-texto">seg</p>
+    </div>
+</div>
+</div><!--término 4 botao-->
+    </div>
+</section>
+<script src="main.js"></script>
+
 </body>
+
 </html>
